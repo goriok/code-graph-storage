@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+*.env
+.env*
+secrets.yaml
+*-secret.yaml
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Kustomize build output
+build/
